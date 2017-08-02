@@ -1,6 +1,6 @@
 # tabjolt-jmx
 
-FIXME: description
+Script to retrieve Tableau resource stats via JMX 
 
 
 ## Usage
