@@ -1,0 +1,15 @@
+{
+ :components         {
+                      :vizqlserver   {:host "localhost" :port 9400}
+                      :dataserver    {:host "localhost" :port 10000}
+                      :wgserver      {:host "localhost" :port 8300}
+                      :searchservice {:host "localhost" :port 11300}
+                      :vizportal     {:host "localhost" :port 8900}
+                      }
+ :threading-counters {
+                      :getThreadCpuTime        {:interface "java.lang:type=Threading" :signature "long"}
+                      :getThreadUserTime       {:interface "java.lang:type=Threading" :signature "long"}
+                      :getThreadAllocatedBytes {:interface "java.lang:type=Threading" :signature "long"}
+                      }
+ }
+
